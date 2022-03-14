@@ -92,8 +92,8 @@ function OnPostSpawn ()
 {
     printl("spawn");
     Precache();
+    
     i_selfName = self.GetName();
-
     script_main = Entities.FindByName(null, "Script");
 
     m_measure = Entities.CreateByClassname("logic_measure_movement");
