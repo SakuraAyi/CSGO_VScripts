@@ -1,0 +1,24 @@
+VertexLitGeneric
+{
+	"$basetexture" "models\weapons\11\sentry_grenadelauncher\mtl_weapon_sentry_launcher_upgr"
+	"$bumpmap" "models\weapons\11\sentry_grenadelauncher\mtl_weapon_sentry_launcher_upgr_normal"
+	"$phong" "1"
+	"$phongboost" "3.5"
+	"$phongexponent" "10"
+	"$phongalbedotint" "1"
+	"$normalmapalphaenvmapmask" "1"
+
+	"$detail" "models\weapons\11\sentry_grenadelauncher\mtl_weapon_sentry_launcher_upgr_s"
+	"$detailscale" "1"        
+	"$detailblendfactor" "0.15"     
+	"$detailblendmode" "1"
+
+	"$phongexponenttexture" "models\weapons\11\sentry_grenadelauncher\exponent"
+	"$cloakPassEnabled" 		"1"						
+	"$phongfresnelranges"	"[ .2 1.2 8]"	
+
+
+	"$color2" "[.8 .8 .8]"
+
+	"$nocull" "1"
+}

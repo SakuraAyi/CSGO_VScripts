@@ -1,0 +1,667 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8456"
+	"mapversion" "1"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "64"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "1"
+	"classname" "worldspawn"
+	"skyname" "sky_dust"
+	"maxpropscreenwidth" "-1"
+	"detailvbsp" "detail.vbsp"
+	"detailmaterial" "detail/detailsprites"
+}
+entity
+{
+	"id" "2"
+	"classname" "prop_dynamic"
+	"_minlight" "0.0"
+	"angles" "0 0 0"
+	"body" "0"
+	"DisableBoneFollowers" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disableX360" "0"
+	"drawinfastreflection" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "2048"
+	"fademindist" "768"
+	"fadescale" "1"
+	"HoldAnimation" "0"
+	"is_autoaim_target" "0"
+	"MaxAnimTime" "10"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"MinAnimTime" "5"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/npcs/11/minigun/sentry_minigun_c.mdl"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "sentry_main"
+	"origin" "-12.1312 -3.33969 -29.8891"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "6"
+	"classname" "prop_dynamic"
+	"_minlight" "0.0"
+	"angles" "0 0 0"
+	"body" "0"
+	"DisableBoneFollowers" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disableX360" "0"
+	"drawinfastreflection" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "2048"
+	"fademindist" "768"
+	"fadescale" "1"
+	"HoldAnimation" "0"
+	"is_autoaim_target" "0"
+	"MaxAnimTime" "10"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"MinAnimTime" "5"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/npcs/11/minigun/sentry_minigun_b.mdl"
+	"parentname" "sentry_main"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "0"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "sentry_yaw"
+	"origin" "-12.1312 -3.33969 -29.8891"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "10"
+	"classname" "env_gunfire"
+	"bias" "-1"
+	"maxburstdelay" "0.1"
+	"maxburstsize" "1"
+	"minburstdelay" "0.1"
+	"minburstsize" "1"
+	"parentname" "sentry_pitch"
+	"rendercolor" "0 128 255"
+	"spread" "1"
+	"StartDisabled" "1"
+	"target" "sentry_aim"
+	"targetname" "sentry_gunfire"
+	"weaponname" "weapon_negev"
+	"origin" "19.4025 -3.33969 17.1109"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "12"
+	"classname" "func_button"
+	"disablereceiveshadows" "1"
+	"disableshadows" "1"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"health" "0"
+	"lip" "0"
+	"locked_sentence" "0"
+	"locked_sound" "0"
+	"min_use_angle" "0.9"
+	"movedir" "0 0 0"
+	"origin" "-13.6 12.64 18.62"
+	"parentname" "sentry_pitch"
+	"renderamt" "0"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "10"
+	"sounds" "0"
+	"spawnflags" "17409"
+	"speed" "0"
+	"targetname" "sentry_button"
+	"unlocked_sentence" "0"
+	"unlocked_sound" "0"
+	"wait" "0.3"
+	solid
+	{
+		"id" "13"
+		side
+		{
+			"id" "1"
+			"plane" "(-15.5975 7.7814 17.3404) (-15.5975 17.6603 18.9039) (-15.5975 17.5041 19.8912)"
+			"material" "TOOLS/TOOLSNPCCLIP"
+			"uaxis" "[0 -0.156434 0.987689 26.3631] 0.25"
+			"vaxis" "[0 -0.987689 -0.156434 -38.3994] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "2"
+			"plane" "(-11.5975 17.6603 18.9029) (-11.5975 7.7836 17.3386) (-11.5975 7.62515 18.3297)"
+			"material" "TOOLS/TOOLSNPCCLIP"
+			"uaxis" "[0 0.156434 -0.987689 -26.3631] 0.25"
+			"vaxis" "[0 -0.987689 -0.156434 -38.3994] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "3"
+			"plane" "(-15.5975 17.6603 18.9039) (-15.5975 7.78345 17.3396) (-11.5975 7.78531 17.3404)"
+			"material" "TOOLS/TOOLSNPCCLIP"
+			"uaxis" "[0 -0.987689 -0.156434 -38.3994] 0.25"
+			"vaxis" "[1 0 0 52.3901] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "4"
+			"plane" "(-15.5975 7.62515 18.3287) (-15.5975 17.5041 19.8931) (-11.5975 17.5041 19.8931)"
+			"material" "TOOLS/TOOLSNPCCLIP"
+			"uaxis" "[0 0.987689 0.156434 38.3994] 0.25"
+			"vaxis" "[1 0 0 52.3901] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "5"
+			"plane" "(-15.5975 17.5041 19.8922) (-15.5975 17.6603 18.9039) (-11.5975 17.6603 18.9039)"
+			"material" "TOOLS/TOOLSNPCCLIP"
+			"uaxis" "[0 0.156434 -0.987689 -26.3631] 0.25"
+			"vaxis" "[1 0 0 52.3901] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "6"
+			"plane" "(-11.5975 7.62613 18.3297) (-11.5975 7.78336 17.3336) (-15.5975 7.78336 17.3375)"
+			"material" "TOOLS/TOOLSNPCCLIP"
+			"uaxis" "[0 -0.156434 0.987689 26.3631] 0.25"
+			"vaxis" "[1 0 0 52.3901] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1500]"
+	}
+}
+entity
+{
+	"id" "15"
+	"classname" "func_physbox"
+	"damagetoenablemotion" "0"
+	"Damagetype" "0"
+	"disableflashlight" "1"
+	"disablereceiveshadows" "1"
+	"disableshadowdepth" "1"
+	"disableshadows" "1"
+	"drawinfastreflection" "0"
+	"ExplodeDamage" "0"
+	"explodemagnitude" "0"
+	"ExplodeRadius" "0"
+	"ExploitableByPlayer" "0"
+	"explosion" "0"
+	"fademaxdist" "1"
+	"fademindist" "0"
+	"fadescale" "1"
+	"forcetoenablemotion" "0"
+	"gibdir" "0 0 0"
+	"health" "0"
+	"massScale" "0"
+	"material" "10"
+	"nodamageforces" "0"
+	"notsolid" "0"
+	"origin" "30.4 -3.34 17.11"
+	"PerformanceMode" "0"
+	"preferredcarryangles" "0 0 0"
+	"pressuredelay" "0"
+	"propdata" "0"
+	"renderamt" "0"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "10"
+	"shadowdepthnocache" "0"
+	"spawnflags" "8453121"
+	"spawnobject" "0"
+	"targetname" "sentry_aim"
+	solid
+	{
+		"id" "16"
+		side
+		{
+			"id" "18"
+			"plane" "(27.4025 -6.33969 20.1109) (27.4025 -0.339691 20.1109) (33.4025 -0.339691 20.1109)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 26.3901] 0.25"
+			"vaxis" "[0 -1 0 -45.3588] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "17"
+			"plane" "(27.4025 -0.339691 14.1109) (27.4025 -6.33969 14.1109) (33.4025 -6.33969 14.1109)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[-1 0 0 -26.3901] 0.25"
+			"vaxis" "[0 -1 0 -45.3588] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "16"
+			"plane" "(27.4025 -6.33969 14.1109) (27.4025 -0.339691 14.1109) (27.4025 -0.339691 20.1109)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 -1 0 -45.3588] 0.25"
+			"vaxis" "[0 0 -1 -59.5564] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "15"
+			"plane" "(33.4025 -0.339691 14.1109) (33.4025 -6.33969 14.1109) (33.4025 -6.33969 20.1109)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[0 1 0 45.3588] 0.25"
+			"vaxis" "[0 0 -1 -59.5564] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "14"
+			"plane" "(27.4025 -0.339691 14.1109) (33.4025 -0.339691 14.1109) (33.4025 -0.339691 20.1109)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[-1 0 0 -26.3901] 0.25"
+			"vaxis" "[0 0 -1 -59.5564] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		side
+		{
+			"id" "13"
+			"plane" "(33.4025 -6.33969 14.1109) (27.4025 -6.33969 14.1109) (27.4025 -6.33969 20.1109)"
+			"material" "TOOLS/TOOLSINVISIBLE"
+			"uaxis" "[1 0 0 26.3901] 0.25"
+			"vaxis" "[0 0 -1 -59.5564] 0.25"
+			"rotation" "0"
+			"lightmapscale" "16"
+			"smoothing_groups" "0"
+		}
+		editor
+		{
+			"color" "220 30 220"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 1000]"
+	}
+}
+entity
+{
+	"id" "18"
+	"classname" "point_template"
+	"spawnflags" "0"
+	"targetname" "sentry_template"
+	"Template01" "sentry_main"
+	"Template02" "sentry_yaw"
+	"Template03" "sentry_pitch"
+	"Template04" "sentry_gunfire"
+	"Template05" "sentry_aim"
+	"Template06" "sentry_audio"
+	"Template07" "sentry_bullet_aud"
+	"Template08" "sentry_glow"
+	"Template09" "sentry_casing"
+	"Template10" "sentry_button"
+	"Template11" "sentry_hud"
+	"vscripts" "nazi/sentry_sp.nut"
+	"origin" "-12.5975 -3.33969 -21.8891"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "20"
+	"classname" "vgui_world_text_panel"
+	"angles" "-30 180 -6"
+	"displaytext" "Test"
+	"enabled" "0"
+	"font" "MissionSelectLarge"
+	"height" "20"
+	"parentname" "sentry_pitch"
+	"rendercolor" "255 255 255"
+	"targetname" "sentry_hud"
+	"textcolor" "255 128 0"
+	"textpanelwidth" "1024"
+	"width" "20"
+	"origin" "-17.5975 21.6603 19.1109"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 2500]"
+	}
+}
+entity
+{
+	"id" "22"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "Bounce.Shell"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "2048"
+	"SourceEntityName" "sentry_yaw"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "sentry_bullet_aud"
+	"volstart" "0"
+	"origin" "-4.59752 -13.3397 11.1109"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "25"
+	"classname" "env_sprite"
+	"_minlight" "0.0"
+	"angles" "0 0 0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"framerate" "10.0"
+	"GlowProxySize" "0.25"
+	"HDRColorScale" "1.0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "sprites/glow04.vmt"
+	"parentname" "sentry_pitch"
+	"renderamt" "255"
+	"rendercolor" "0 255 0"
+	"renderfx" "0"
+	"rendermode" "9"
+	"spawnflags" "0"
+	"targetname" "sentry_glow"
+	"origin" "-30.5975 -2.60471 18.1109"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "28"
+	"classname" "env_sprite"
+	"_minlight" "0.0"
+	"angles" "0 0 0"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"disableX360" "0"
+	"fademaxdist" "0"
+	"fademindist" "-1"
+	"fadescale" "1"
+	"framerate" "10.0"
+	"GlowProxySize" "0.25"
+	"HDRColorScale" "1.0"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "sprites/glow04.vmt"
+	"parentname" "sentry_pitch"
+	"renderamt" "255"
+	"rendercolor" "255 0 0"
+	"renderfx" "0"
+	"rendermode" "9"
+	"spawnflags" "0"
+	"targetname" "sentry_glow"
+	"origin" "-9.59752 -6.1037 25.6391"
+	editor
+	{
+		"color" "20 140 20"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 3000]"
+	}
+}
+entity
+{
+	"id" "31"
+	"classname" "ambient_generic"
+	"cspinup" "0"
+	"fadeinsecs" "0"
+	"fadeoutsecs" "0"
+	"health" "10"
+	"lfomodpitch" "0"
+	"lfomodvol" "0"
+	"lforate" "0"
+	"lfotype" "0"
+	"message" "none"
+	"pitch" "100"
+	"pitchstart" "100"
+	"preset" "0"
+	"radius" "2048"
+	"SourceEntityName" "sentry_pitch"
+	"spawnflags" "48"
+	"spindown" "0"
+	"spinup" "0"
+	"targetname" "sentry_audio"
+	"volstart" "0"
+	"origin" "-12.5975 -2.33969 27.6601"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "34"
+	"classname" "info_particle_system"
+	"angles" "0 0 0"
+	"cpoint1_parent" "0"
+	"cpoint2_parent" "0"
+	"cpoint3_parent" "0"
+	"cpoint4_parent" "0"
+	"cpoint5_parent" "0"
+	"cpoint6_parent" "0"
+	"cpoint7_parent" "0"
+	"drawinfastreflection" "0"
+	"effect_name" "weapon_shell_casing_minigun"
+	"parentname" "sentry_pitch"
+	"rendercolor" "255 255 255"
+	"start_active" "0"
+	"targetname" "sentry_casing"
+	"origin" "-3.59752 -14.3397 12.1109"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "99"
+	"classname" "prop_dynamic"
+	"_minlight" "0.0"
+	"angles" "0 0 0"
+	"body" "0"
+	"DisableBoneFollowers" "0"
+	"disableflashlight" "0"
+	"disablereceiveshadows" "0"
+	"disableshadowdepth" "0"
+	"disableshadows" "0"
+	"disableX360" "0"
+	"drawinfastreflection" "0"
+	"ExplodeDamage" "0"
+	"ExplodeRadius" "0"
+	"fademaxdist" "2048"
+	"fademindist" "768"
+	"fadescale" "1"
+	"HoldAnimation" "0"
+	"is_autoaim_target" "0"
+	"MaxAnimTime" "10"
+	"maxcpulevel" "0"
+	"maxgpulevel" "0"
+	"MinAnimTime" "5"
+	"mincpulevel" "0"
+	"mingpulevel" "0"
+	"model" "models/npcs/11/minigun/sentry_minigun_a.mdl"
+	"parentname" "sentry_yaw"
+	"PerformanceMode" "0"
+	"pressuredelay" "0"
+	"RandomAnimation" "0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"SetBodyGroup" "0"
+	"shadowdepthnocache" "0"
+	"skin" "0"
+	"solid" "6"
+	"spawnflags" "0"
+	"StartDisabled" "0"
+	"targetname" "sentry_pitch"
+	"vscripts" "nazi/sentry.nut"
+	"origin" "-12.1312 -3.33969 6.1109"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}

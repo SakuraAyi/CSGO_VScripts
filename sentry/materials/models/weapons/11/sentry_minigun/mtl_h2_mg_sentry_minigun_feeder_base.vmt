@@ -1,0 +1,24 @@
+VertexLitGeneric
+{
+	"$basetexture" "models\weapons\11\sentry_minigun\mtl_h2_mg_sentry_minigun_feeder_base"
+	"$bumpmap" "models\weapons\11\sentry_minigun\mtl_h2_mg_sentry_minigun_feeder_base_normal"
+
+
+    	"$surfaceprop" "metal"
+	"$phong" "1"
+	"$phongfresnelranges"	"[0.5 4.75 5]"
+	"$phongboost"	".3"
+	"$envmaptint"	"[.135 .135 .135]"
+	"$envmapfresnel"	"1.4"
+	"$normalmapalphaenvmapmask" 1
+	"$halflambert" "1"
+	"$ambientocclusion" "1"						
+	"$phongexponenttexture" "models\weapons\11\sentry_minigun\exponent"
+	"$cloakPassEnabled" 		"1"						
+	"$phongfresnelranges"	"[ .2 1.2 8]"	
+
+	"$color2" "[.7 .7 .7]"	
+	
+
+	"$nocull" "1"
+}
