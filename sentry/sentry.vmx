@@ -1,8 +1,8 @@
 versioninfo
 {
 	"editorversion" "400"
-	"editorbuild" "8456"
-	"mapversion" "1"
+	"editorbuild" "8860"
+	"mapversion" "3"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,18 +14,71 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "64"
-	"bShow3DGrid" "0"
+	"nGridSpacing" "16"
+}
+palette_plus
+{
+	"color0" "255 255 255"
+	"color1" "255 255 255"
+	"color2" "255 255 255"
+	"color3" "255 255 255"
+	"color4" "255 255 255"
+	"color5" "255 255 255"
+	"color6" "255 255 255"
+	"color7" "255 255 255"
+	"color8" "255 255 255"
+	"color9" "255 255 255"
+	"color10" "255 255 255"
+	"color11" "255 255 255"
+	"color12" "255 255 255"
+	"color13" "255 255 255"
+	"color14" "255 255 255"
+	"color15" "255 255 255"
+}
+colorcorrection_plus
+{
+	"name0" ""
+	"weight0" "1"
+	"name1" ""
+	"weight1" "1"
+	"name2" ""
+	"weight2" "1"
+	"name3" ""
+	"weight3" "1"
+}
+light_plus
+{
+	"samples_sun" "6"
+	"samples_ambient" "40"
+	"samples_vis" "256"
+	"texlight" ""
+	"incremental_delay" "0"
+	"bake_dist" "1024"
+	"radius_scale" "1"
+	"brightness_scale" "1"
+	"ao_scale" "0"
+	"bounced" "1"
+	"incremental" "1"
+	"supersample" "0"
+	"bleed_hack" "1"
+	"soften_cosine" "1"
+	"debug" "0"
+	"cubemap" "1"
+	"hdr" "1"
+	"csm" "1"
+}
+bgimages_plus
+{
 }
 world
 {
 	"id" "1"
-	"mapversion" "1"
+	"mapversion" "3"
 	"classname" "worldspawn"
-	"skyname" "sky_dust"
-	"maxpropscreenwidth" "-1"
-	"detailvbsp" "detail.vbsp"
 	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_dust"
 }
 entity
 {
@@ -190,6 +243,13 @@ entity
 		{
 			"id" "1"
 			"plane" "(-15.5975 7.7814 17.3404) (-15.5975 17.6603 18.9039) (-15.5975 17.5041 19.8912)"
+			vertices_plus
+			{
+				"v" "-15.5975 7.7822 17.3328"
+				"v" "-15.5975 17.6572 18.8963"
+				"v" "-15.5975 17.501 19.8914"
+				"v" "-15.5975 7.62705 18.3278"
+			}
 			"material" "TOOLS/TOOLSNPCCLIP"
 			"uaxis" "[0 -0.156434 0.987689 26.3631] 0.25"
 			"vaxis" "[0 -0.987689 -0.156434 -38.3994] 0.25"
@@ -201,6 +261,13 @@ entity
 		{
 			"id" "2"
 			"plane" "(-11.5975 17.6603 18.9029) (-11.5975 7.7836 17.3386) (-11.5975 7.62515 18.3297)"
+			vertices_plus
+			{
+				"v" "-11.5975 17.6611 18.9041"
+				"v" "-11.5975 7.78243 17.3395"
+				"v" "-11.5975 7.62595 18.3289"
+				"v" "-11.5975 17.501 19.8924"
+			}
 			"material" "TOOLS/TOOLSNPCCLIP"
 			"uaxis" "[0 0.156434 -0.987689 -26.3631] 0.25"
 			"vaxis" "[0 -0.987689 -0.156434 -38.3994] 0.25"
@@ -212,6 +279,13 @@ entity
 		{
 			"id" "3"
 			"plane" "(-15.5975 17.6603 18.9039) (-15.5975 7.78345 17.3396) (-11.5975 7.78531 17.3404)"
+			vertices_plus
+			{
+				"v" "-15.5989 17.6611 18.9031"
+				"v" "-15.5989 7.78318 17.3386"
+				"v" "-11.5982 7.78611 17.3396"
+				"v" "-11.5982 17.6572 18.9031"
+			}
 			"material" "TOOLS/TOOLSNPCCLIP"
 			"uaxis" "[0 -0.987689 -0.156434 -38.3994] 0.25"
 			"vaxis" "[1 0 0 52.3901] 0.25"
@@ -223,6 +297,13 @@ entity
 		{
 			"id" "4"
 			"plane" "(-15.5975 7.62515 18.3287) (-15.5975 17.5041 19.8931) (-11.5975 17.5041 19.8931)"
+			vertices_plus
+			{
+				"v" "-15.5989 7.62595 18.3289"
+				"v" "-15.5989 17.5049 19.8933"
+				"v" "-11.5982 17.5049 19.8938"
+				"v" "-11.5982 7.62617 18.3295"
+			}
 			"material" "TOOLS/TOOLSNPCCLIP"
 			"uaxis" "[0 0.987689 0.156434 38.3994] 0.25"
 			"vaxis" "[1 0 0 52.3901] 0.25"
@@ -234,6 +315,13 @@ entity
 		{
 			"id" "5"
 			"plane" "(-15.5975 17.5041 19.8922) (-15.5975 17.6603 18.9039) (-11.5975 17.6603 18.9039)"
+			vertices_plus
+			{
+				"v" "-15.5989 17.5039 19.8933"
+				"v" "-15.5989 17.6601 18.905"
+				"v" "-11.5982 17.6611 18.9011"
+				"v" "-11.5982 17.5043 19.8931"
+			}
 			"material" "TOOLS/TOOLSNPCCLIP"
 			"uaxis" "[0 0.156434 -0.987689 -26.3631] 0.25"
 			"vaxis" "[1 0 0 52.3901] 0.25"
@@ -245,6 +333,13 @@ entity
 		{
 			"id" "6"
 			"plane" "(-11.5975 7.62613 18.3297) (-11.5975 7.78336 17.3336) (-15.5975 7.78336 17.3375)"
+			vertices_plus
+			{
+				"v" "-11.5982 7.62498 18.3308"
+				"v" "-11.5982 7.78123 17.3425"
+				"v" "-15.6008 7.78318 17.3386"
+				"v" "-15.6008 7.62686 18.329"
+			}
 			"material" "TOOLS/TOOLSNPCCLIP"
 			"uaxis" "[0 -0.156434 0.987689 26.3631] 0.25"
 			"vaxis" "[1 0 0 52.3901] 0.25"
@@ -313,6 +408,13 @@ entity
 		{
 			"id" "18"
 			"plane" "(27.4025 -6.33969 20.1109) (27.4025 -0.339691 20.1109) (33.4025 -0.339691 20.1109)"
+			vertices_plus
+			{
+				"v" "27.4025 -6.33969 20.1109"
+				"v" "27.4025 -0.33969 20.1109"
+				"v" "33.4025 -0.33969 20.1109"
+				"v" "33.4025 -6.33969 20.1109"
+			}
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[1 0 0 26.3901] 0.25"
 			"vaxis" "[0 -1 0 -45.3588] 0.25"
@@ -324,6 +426,13 @@ entity
 		{
 			"id" "17"
 			"plane" "(27.4025 -0.339691 14.1109) (27.4025 -6.33969 14.1109) (33.4025 -6.33969 14.1109)"
+			vertices_plus
+			{
+				"v" "27.4025 -0.33969 14.1109"
+				"v" "27.4025 -6.33969 14.1109"
+				"v" "33.4025 -6.33969 14.1109"
+				"v" "33.4025 -0.33969 14.1109"
+			}
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[-1 0 0 -26.3901] 0.25"
 			"vaxis" "[0 -1 0 -45.3588] 0.25"
@@ -335,6 +444,13 @@ entity
 		{
 			"id" "16"
 			"plane" "(27.4025 -6.33969 14.1109) (27.4025 -0.339691 14.1109) (27.4025 -0.339691 20.1109)"
+			vertices_plus
+			{
+				"v" "27.4025 -6.33969 14.1109"
+				"v" "27.4025 -0.33969 14.1109"
+				"v" "27.4025 -0.33969 20.1109"
+				"v" "27.4025 -6.33969 20.1109"
+			}
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[0 -1 0 -45.3588] 0.25"
 			"vaxis" "[0 0 -1 -59.5564] 0.25"
@@ -346,6 +462,13 @@ entity
 		{
 			"id" "15"
 			"plane" "(33.4025 -0.339691 14.1109) (33.4025 -6.33969 14.1109) (33.4025 -6.33969 20.1109)"
+			vertices_plus
+			{
+				"v" "33.4025 -0.33969 14.1109"
+				"v" "33.4025 -6.33969 14.1109"
+				"v" "33.4025 -6.33969 20.1109"
+				"v" "33.4025 -0.33969 20.1109"
+			}
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[0 1 0 45.3588] 0.25"
 			"vaxis" "[0 0 -1 -59.5564] 0.25"
@@ -357,6 +480,13 @@ entity
 		{
 			"id" "14"
 			"plane" "(27.4025 -0.339691 14.1109) (33.4025 -0.339691 14.1109) (33.4025 -0.339691 20.1109)"
+			vertices_plus
+			{
+				"v" "27.4025 -0.339691 14.1109"
+				"v" "33.4025 -0.339691 14.1109"
+				"v" "33.4025 -0.339691 20.1109"
+				"v" "27.4025 -0.339691 20.1109"
+			}
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[-1 0 0 -26.3901] 0.25"
 			"vaxis" "[0 0 -1 -59.5564] 0.25"
@@ -368,6 +498,13 @@ entity
 		{
 			"id" "13"
 			"plane" "(33.4025 -6.33969 14.1109) (27.4025 -6.33969 14.1109) (27.4025 -6.33969 20.1109)"
+			vertices_plus
+			{
+				"v" "33.4025 -6.33969 14.1109"
+				"v" "27.4025 -6.33969 14.1109"
+				"v" "27.4025 -6.33969 20.1109"
+				"v" "33.4025 -6.33969 20.1109"
+			}
 			"material" "TOOLS/TOOLSINVISIBLE"
 			"uaxis" "[1 0 0 26.3901] 0.25"
 			"vaxis" "[0 0 -1 -59.5564] 0.25"
@@ -407,7 +544,7 @@ entity
 	"Template09" "sentry_casing"
 	"Template10" "sentry_button"
 	"Template11" "sentry_hud"
-	"vscripts" "nazi/sentry_sp.nut"
+	"vscripts" "sentry_sp.nut"
 	"origin" "-12.5975 -3.33969 -21.8891"
 	editor
 	{
@@ -647,8 +784,23 @@ entity
 	"spawnflags" "0"
 	"StartDisabled" "0"
 	"targetname" "sentry_pitch"
-	"vscripts" "nazi/sentry.nut"
+	"vscripts" "sentry.nut"
 	"origin" "-12.1312 -3.33969 6.1109"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "188"
+	"classname" "logic_script"
+	"targetname" "script_main"
+	"vscripts" "mainscript.nut"
+	"origin" "-16 -48 27.4206"
 	editor
 	{
 		"color" "220 30 220"

@@ -8,7 +8,8 @@ Rad <- 0.01745329251994329576923690768489
 Deg <- 57.295779513082320876798154814105
 
 Owner <- null;
-HostileCamp <- -1;
+HostileCamp <- -1; //敌对阵营是谁
+
 Health <- 20;
 Ammo <- 600; // 7.62 Sentry
 TurretYawSpeed <- 5;
@@ -1093,7 +1094,7 @@ scan <- function ()
 UnderAttack <- function ()
 {
 
-    ScriptPrintMessageChatAll( "UnderAttack" );
+    //ScriptPrintMessageChatAll( "UnderAttack" );
 
     Health -= 1;
 

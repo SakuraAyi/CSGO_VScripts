@@ -27,7 +27,7 @@ Alive <- function ( param )
 Spawn <- function ()
 {
 
-    ScriptPrintMessageChatAll( "Spawn" );
+    //ScriptPrintMessageChatAll( "Spawn" );
 
     local atv;
 

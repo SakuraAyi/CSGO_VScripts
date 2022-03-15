@@ -1112,7 +1112,7 @@ scan <- function ()
 UnderAttack <- function ()
 {
 
-    ScriptPrintMessageChatAll( "UnderAttack" );
+    //ScriptPrintMessageChatAll( "UnderAttack" );
 
     Health -= 1;
 
