@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8860"
-	"mapversion" "2"
+	"mapversion" "3"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -73,7 +73,7 @@ bgimages_plus
 world
 {
 	"id" "1"
-	"mapversion" "2"
+	"mapversion" "3"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -239,7 +239,7 @@ entity
 	"id" "202"
 	"classname" "point_template"
 	"spawnflags" "0"
-	"targetname" "sentry-helauncher_template"
+	"targetname" "sentry-helauncher_maker"
 	"Template01" "sentry-helauncher_main"
 	"Template02" "sentry-helauncher_yaw"
 	"Template03" "sentry-helauncher_pitch"

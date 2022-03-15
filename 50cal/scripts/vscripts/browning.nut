@@ -128,7 +128,7 @@ function OnPostSpawn ()
         }
     }
 
-    EntIO(m_but, "OnPressed", MyName, "RunScriptCode", "OnUse()", "0.00", "-1");
+    ::VS.EntIO(m_but, "OnPressed", MyName, "RunScriptCode", "OnUse()", "0.00", "-1");
 
     Think();
     //Shoot();
@@ -138,6 +138,7 @@ function OnPostSpawn ()
 OnUse <- function ()
 {
     local atvr = activator;
+    atvr.__KeyValueFromString("targetname", "player"+rand());
 
     if ( atvr != null )
     {
@@ -155,14 +156,14 @@ OnUse <- function ()
             m_ui.SetOwner(_UseBy);
             m_ui.SetOrigin(MyOrigin);
 
-            EntIO(m_ui, "PlayerOff", MyName, "RunScriptCode", "PlayerOff()", "0.00", "-1");
+            ::VS.EntIO(m_ui, "PlayerOff", MyName, "RunScriptCode", "PlayerOff()", "0.00", "-1");
             EntFireByHandle(m_but, "Lock", "", 0.00, null, null);
 
             if ( Browning.Ammo != 0 )
             {
                 //m_ui.ConnectOutput("PlayerOff", "PlayerOff");
-                EntIO(m_ui, "PressedAttack", MyName, "RunScriptCode", "OpenFire()", "0.00", "-1");
-                EntIO(m_ui, "UnPressedAttack", MyName, "RunScriptCode", "CeaseFire()", "0.05", "-1");
+                ::VS.EntIO(m_ui, "PressedAttack", MyName, "RunScriptCode", "OpenFire()", "0.00", "-1");
+                ::VS.EntIO(m_ui, "UnPressedAttack", MyName, "RunScriptCode", "CeaseFire()", "0.05", "-1");
 
                 EntFireByHandle(m_view, "Enable", "", 0.10, _UseBy, null);
                 EntFireByHandle(m_ui, "Activate", "", 0.00, _UseBy, null);
@@ -341,6 +342,7 @@ Shoot <- function ()
                     if ( ent.GetClassname() == "player" || ent.GetClassname() == "cs_bot" )
                     {
                         local vic = ent;
+                        vic.__KeyValueFromString("targetname", "playerH"+rand());
                         local vicPos = vic.GetOrigin(),vicPos2 = vic.EyePosition();
                         vicPos.z += 36;
                         local dist = pos - vicPos,total = dist.LengthSqr();
