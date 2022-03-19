@@ -1,0 +1,81 @@
+file: rec7.ogg
+***********************************result**************************************
+[0:0.000,0:11.070]  This is the audio log of medical supervisor Peter Raleigh, we have exhausted all known forms of drug treatment in hopes of finding a way to abate this strange outbreak of dementia. 
+[0:11.180,0:20.830]  Approximately 80% of all extra planar participants exhibit signs of mild neuroses within the first 48 hours after returning from their expeditions. 
+[0:20.980,0:28.490]  Within 72 hours, 75% of patients exhibit extreme signs of paranoid delusion and violence. 
+[0:28.700,0:40.190]  We have isolated these cases in hopes of finding the pathogen, it seems that whatever this pathogen is it attacks higher brain functions and only leaves more basil functions in the lower brain stem. 
+[0:40.190,0:46.810]  We've witnessed the high percentage of subjects lose ability for rational thought and communication skills. 
+[0:46.880,0:49.650]  And then the physical changes become evident. 
+[0:49.660,1:2.170]  Subjects in this group appear to atrophy skin pales muscles become slack bone teeth and fingernails become almost translucent vey, nice news of their former selves. 
+[1:2.380,1:5.438]  I have never seen anything like this in my career. 
+
+************************************end****************************************
+
+[0:0.000,0:11.070]这是医疗主管彼得·罗利的音频日志，我们已经用尽了所有已知的药物治疗方法，希望找到一种方法来减轻这种奇怪的痴呆症发作。
+
+[0:11.180,0:20.830]大约80%的超平面参与者在探险归来后的前48小时内表现出轻度神经症的迹象。
+
+[0:20.980,0:28.490]在72小时内，75%的患者表现出偏执妄想和暴力的极端症状。
+
+[0:28.700,0:40.190]我们分离了这些病例，希望找到病原体，似乎无论这种病原体是什么，它都会攻击更高的大脑功能，只会在较低的脑干留下更多的罗勒功能。
+
+[0:40.190,0:46.810]我们目睹了高比例的受试者丧失理性思维和沟通能力。
+
+[0:46.880,0:49.650]然后物理变化变得明显。
+
+[0:49.660,1:2.170]这组受试者出现皮肤萎缩、肌肉变苍白、骨骼变松弛、牙齿变软、指甲几乎半透明，这是他们过去的好消息。
+
+[1:2.380,1:5.438]在我的职业生涯中，我从未见过这样的事情。
+
+
+
+[0:0.000,0:28.820]这是医疗主管Peter Raleigh的音频日志，我们已经用尽了所有已知的药物治疗方法，希望找到一种方法来减轻这种奇怪的痴呆症发作，大约80%的超平面参与者在72小时内完成探险返回后的前48小时内表现出轻度神经症症状，75%的患者表现出偏执妄想和暴力的极端症状。
+
+[0:28.820,1:2.320]我们已经分离出这些病例，希望找到病原体，似乎不管这种病原体是什么，它攻击大脑的高级功能，只留下比我们所看到的较低脑干更多的基底功能。我们已经看到，高比例的受试者丧失了理性思考和沟通技能的能力，然后身体变化变得明显，这一组的受试者出现萎缩，皮肤苍白，肌肉松弛，骨齿松弛，指甲几乎半透明，很好地利用了他们以前的自我。
+
+[1:2.320,1:5.438]在我的职业生涯中，我从未见过这样的事情。
+
+
+file: broadcast1.ogg
+***********************************result**************************************
+[0:0.320,0:33.100]  For those of you just tuning in we will be on the air for the remainder of this crisis, the situation at this hour does not look hopeful all routes out of the city are jammed mobs of what have been described as bloodied corpses have been seen marching throughout downtown reports of walking dead are coming in from around the tri-state area whatever is going on, it is not a local phenomenon, clearly this is a very dark time, a very confusing time, it is unclear why or how this is happening. 
+[0:33.100,0:41.116]  This just in that the governor has issued this short statement stay in your homes and lock your doors do not trust anybody. 
+
+************************************end****************************************
+
+[0:0.320,0:33.100]对于刚刚收听的各位，我们将在本次危机的剩余时间播出，此时此刻的情况看来并不乐观所有出城路线都挤满了被称为血迹斑斑的尸体在市中心游行报道说三州地区都有行尸走肉不管发生了什么，
+这不是当地现象，显然这是一个非常黑暗的时期，这是一个非常令人困惑的时期，不清楚为什么会发生这种情况，或者是如何发生的。
+
+[0:33.100,0:41.116]州长刚刚发表了一个简短的声明，呆在家里，锁上门，不要相信任何人。
+
+
+file: broadcast2.ogg
+***********************************result**************************************
+[0:1.040,0:5.170]  We are interrupting our normal broadcast to bring you this important bulletin. 
+[0:5.170,0:15.190]  We are getting disconcerting reports of mass murder from all over the state details are sketchy at this time, although there was no official statement from law enforcement officials. 
+[0:15.240,0:26.190]  The police chief has speculated that rival gangs may be involved and I've just been told that we're gonna go live to news correspondent Amanda Rogers who was on site at the d consider Mo. 
+[0:26.190,0:28.810]  Oh, Amanda, can you tell us what's going on there. 
+[0:29.140,0:30.710]  Amanda donohoe. 
+[0:31.400,0:37.030]  Well, it looks like we're having some technical difficulty getting in touch with Amanda we'll try again momentarily. 
+[0:37.200,0:42.666]  Obviously some very disturbing news and we will be staying with this story all day long. 
+
+************************************end****************************************
+
+***********************************结果**************************************
+
+[0:1.040,0:5.170]我们正在中断正常广播，以便为您带来这一重要公告。
+
+[0:5.170,0:15.190]我们从全州各地收到了令人不安的大规模谋杀报告，尽管执法官员没有发表正式声明，但目前细节还很粗略。
+
+[0:15240，0:26190]警察局长猜测可能会涉及敌对帮派，我刚刚被告知，我们将去现场采访新闻记者Amanda Rogers。
+
+哦，阿曼达，你能告诉我们那里发生了什么事吗。
+
+阿曼达·多诺霍。
+
+[0:31.400,0:37.030]看来我们在与Amanda取得联系时遇到了一些技术问题，我们会马上再试一次。
+
+[0:37.200,0:42.666]显然有些非常令人不安的消息，我们将整天都在关注这个故事。
+
+************************************结束****************************************
+
