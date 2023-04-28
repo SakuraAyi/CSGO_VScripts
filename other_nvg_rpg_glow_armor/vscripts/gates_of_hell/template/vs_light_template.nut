@@ -12,7 +12,7 @@ function PreSpawnInstance (entityClass, entityName)
         //AT-4 Fire
         case 0:
         {
-            
+
             keyvalues = {
                 targetname = prefix+"AT4_",
                 _light = "255 128 0 200",
@@ -52,7 +52,7 @@ function PostSpawn (entities)
 {
     foreach ( entityClass, entity in entities)
     {
-        if (entitiy == null) return;
+        if (entity == null) return;
         printl( entityClass + ": " + entity );
         if (entityClass.find("light") != null)
         {
@@ -63,8 +63,8 @@ function PostSpawn (entities)
 
             if (g_target.ValidateScriptScope())
                 g_target.GetScriptScope().light <- entity;
-            if (entitiy.ValidateScriptScope())
-                entitiy.GetScriptScope().owner <- g_target;
+            if (entity.ValidateScriptScope())
+                entity.GetScriptScope().owner <- g_target;
             EntFireByHandle(entity, "TurnOn", "", 0.00, null, null);
         }
     }

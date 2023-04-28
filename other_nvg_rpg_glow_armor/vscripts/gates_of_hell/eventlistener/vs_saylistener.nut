@@ -21,15 +21,15 @@ OnGameEvent_player_say <- function (event_data)
     {
         if (pass)
         {
-            if (text.tolower().tostring() == "\\glow")
+            if (text.tolower().tostring() == "!glow")
                 script_item.GetScriptScope().Glowstick(plr).Switch();
-            if (text.tolower().tostring() == "\\rpg")
+            if (text.tolower().tostring() == "!rpg")
             {
                 local playerscope = script_player.GetScriptScope();
                 if (plr.GetScriptScope().m_dummy != null)
                     playerscope.PlayerDummy(plr).Switch();
             }
-            else if (text.tolower().tostring() == "\\ibas")
+            else if (text.tolower().tostring() == "!ibas")
                 script_item.GetScriptScope().ArmorPlate(plr).Load();
             pass = false, second = 0.00;
         }
