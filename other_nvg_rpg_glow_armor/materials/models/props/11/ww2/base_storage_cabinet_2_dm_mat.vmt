@@ -1,0 +1,11 @@
+"VertexlitGeneric"
+{
+"$basetexture" "models/props/11/ww2/base_storage_cabinet_2_dm"
+"$surfaceprop" "metal"
+"$nocull" 1
+"$halflambert" 1
+"$phong" "1"
+"$phongexponent" "20"
+"$phongboost" "1"
+"$phongfresnelranges" "[.3 1 7]"
+}

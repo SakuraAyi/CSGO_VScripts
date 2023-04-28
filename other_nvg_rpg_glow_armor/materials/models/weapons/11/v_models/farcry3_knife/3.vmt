@@ -1,0 +1,47 @@
+VertexLitGeneric
+{
+	"$baseTexture"			"models\weapons\11\v_models\farcry3_knife\diffuse"
+	"$bumpmap"			"models\weapons\11\v_models\farcry3_knife\normal"
+	"$phongexponenttexture" 	"models\weapons\11\v_models\farcry3_knife\e"
+
+
+	"$halflambert"	"1"
+
+	"$phong" 1
+	"$phongboost" 2.0
+
+	"$normalmapalphaphongmask" 1
+
+
+
+	"$phongfresnelranges" "[1 4 8]"
+
+	"$phongalbedotint" "1"
+
+	"$phongtint" "[0.7 0.7 0.85]"
+
+
+
+
+
+	"$envmap" "env_cubemap"
+
+	$basealphaenvmapmask 1
+
+	"$envmaptint" "[0.052 0.052 0.052]"
+
+
+
+	$rimlight               "1"
+	$rimlightexponent       "120"
+	$rimlightboost          "0.20"	
+	$rimmask		"1"
+
+
+
+}
+
+
+
+
+

@@ -1,0 +1,8 @@
+ VertexlitGeneric
+{
+	$baseTexture models\props\11\army\glowstick_green
+	$selfillum 1
+	$model 1
+
+
+}

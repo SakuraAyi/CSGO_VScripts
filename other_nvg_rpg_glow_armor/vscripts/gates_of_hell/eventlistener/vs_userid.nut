@@ -69,7 +69,7 @@ Think <- function ()
                 }
 
                 if ("skin" in l_sc)
-                    Set(l_plr, l_sc.skin);
+                    null;//Set(l_plr, l_sc.skin);
                 else
                     reg(l_plr);
             }

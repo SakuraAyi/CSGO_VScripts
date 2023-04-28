@@ -1,0 +1,14 @@
+"VertexLitGeneric"
+{
+	"$basetexture"	"models\weapons\11\v_models\knife_ct\mk21"
+	"$bumpmap"	"models\weapons\11\v_models\knife_ct\mk21normal"
+	"$nocull" "1"
+	"$normalmapalphaenvmapmask" "1"
+ 	"$phong" "1"
+	"$phongexponent" "30"
+	"$phongboost" "1.3"
+	"$phongfresnelranges" "[0.2 3 2]"
+	"$phongalbedotint" "1"
+
+
+}

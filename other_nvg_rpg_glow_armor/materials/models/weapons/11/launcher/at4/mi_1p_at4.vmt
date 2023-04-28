@@ -1,0 +1,24 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\weapons\11\launcher\at4\T_1P_AT4_D"
+	"$bumpmap"						"models\weapons\11\launcher\at4\T_1P_AT4_N"
+	"$phongexponent"				"24"
+	"$blendTintByBaseAlpha"	"1"
+	"$halflambert" 						"1"
+		
+	"$normalmapalphaenvmapmask" "1"
+
+	"$phong" 						"1"
+	"$phongexponenttexture"			"models\weapons\11\launcher\at4\T_1P_AT4_M"
+	"$phongwarptexture"		"models\weapons\11\launcher\phongwarp1"
+	"$phongboost"					"25"
+	"$phongexponent" 8
+	"$phongfresnelranges"			"[1 5 22.5]"
+	"$PhongAlbedoTint" 				"1"
+	
+	"$detail" 				"models\weapons\11\launcher\detail_metal"
+	"$detailscale" 			"4"
+	"$detailblendfactor" 		"1"
+	"$detailblendmode" 		"0"
+	"$nocull" 1
+}

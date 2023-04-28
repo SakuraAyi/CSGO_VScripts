@@ -1,0 +1,5 @@
+VertexLitGeneric
+{
+	$basetexture "models\props\army\crate_choppersupply_box"
+	$model 1
+}

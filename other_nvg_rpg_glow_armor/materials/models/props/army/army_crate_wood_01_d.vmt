@@ -1,0 +1,6 @@
+VertexLitGeneric
+{
+	$basetexture "models\props\army\army_crate_wood_01_d"
+	$bumpmap "models\props\army\army_crate_wood_01_n"
+	$model 1
+}
